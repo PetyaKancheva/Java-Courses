@@ -2,7 +2,7 @@ package FirstStepsInCoding.P01;
 
 import java.util.Scanner;
 
-public class P09_Yard_Greening {
+public class P09YardGreening {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double yardSize =Double.parseDouble(scanner.nextLine());

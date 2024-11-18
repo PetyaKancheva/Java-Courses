@@ -3,7 +3,7 @@ package FirstStepsInCoding.P01;
 import java.util.Scanner;
 import java.util.random.RandomGenerator;
 
-public class P06_Concatenate_Data {
+public class P06ConcatenateData {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String firstName =scanner.nextLine();

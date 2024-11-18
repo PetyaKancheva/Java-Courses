@@ -2,7 +2,7 @@ package FirstStepsInCoding.P01;
 
 import java.util.Scanner;
 
-public class P07_Projects_Creation {
+public class P07ProjectsCreation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String architectName=scanner.nextLine();
