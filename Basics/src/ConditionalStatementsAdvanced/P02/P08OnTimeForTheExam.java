@@ -14,6 +14,7 @@ public class P08OnTimeForTheExam {
         int examTime = examHour * 60 + examMinute;
         int arrivalTime = arrivalHour * 60 + arrivalMinute;
         int difference = arrivalTime - examTime;
+
         if (difference>59){
             System.out.println("Late");
             System.out.printf("%d : %02d hours after the start",difference/60,difference%60);
@@ -35,9 +36,6 @@ public class P08OnTimeForTheExam {
             difference=Math.abs(difference);
             System.out.printf("%d : %02d hours before the start",difference/60,difference%60);
         }
-
-
-
 
     }
 }
