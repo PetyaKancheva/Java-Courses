@@ -1,4 +1,4 @@
-package DataTypesAndVariables.P02.P01IntegerOperations;
+package DataTypesAndVariables.P02;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class P01IntegerOperations {
         int second=Integer.parseInt(scanner.nextLine());
         int third=Integer.parseInt(scanner.nextLine());
         int forth=Integer.parseInt(scanner.nextLine());
-        
+
         int result=((first+second)/third)*forth;
 
         System.out.println(result);
